@@ -74,7 +74,10 @@ aside {
 }
 
 .logos {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .buttons {
@@ -132,11 +135,11 @@ aside {
 .logo-cia {
   height: 10rem;
   padding-top: 1rem;
+  margin-right: 1rem;
 }
 
 .logo-gg {
   padding-top: 1rem;
-  margin-right: 2rem;
   height: 10rem;
 }
 
